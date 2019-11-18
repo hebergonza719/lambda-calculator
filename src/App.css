@@ -31,10 +31,22 @@
     border-radius: 50px;
     height: 100px;
     width: 100px;
-    background-color: #2161B0;
+    /* background-color: #2161B0; */
     border-color: black;
     color: white;
     font-size: 40px;
+  }
+
+  .button-color-number {
+    background-color: #123C78;
+  }
+
+  .button-color-operators {
+    background-color: #3DB5E5;
+  }
+
+  .button-color-special {
+    background-color: #2161B0;
   }
   
   .button-container {
