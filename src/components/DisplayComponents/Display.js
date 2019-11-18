@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
-let displayAmount = 0;
-
 const Display = () => {
+  const [displayAmount, setDisplayAmount] = useState(0);
   return <div className="display">{displayAmount}</div>;
 };
 
