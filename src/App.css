@@ -5,9 +5,11 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    padding: 30px 0px;
+    height: 700px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px 0;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +21,34 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .App {
+    padding: 0 30px;
+  }
+
+  .button {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    /* background-color: #2161B0; */
+    border-color: black;
+    color: white;
+    font-size: 40px;
+  }
+
+  .button-color-number {
+    background-color: #123C78;
+  }
+
+  .button-color-operators {
+    background-color: #3DB5E5;
+  }
+
+  .button-color-special {
+    background-color: #2161B0;
+  }
+  
+  .button-container {
+    display: flex;
   }
